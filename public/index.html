@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeable Chat</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="log"></div>
+    <div id="controls">
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Your username"
+        required
+      />
+      <input
+        type="text"
+        name="text"
+        id="text"
+        placeholder="Your message here"
+        required
+      />
+      <button>Send</button>
+    </div>
+    <div class="alert hide">
+      <div class="content">
+        <i>&#9888;</i>
+        <div class="context"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
